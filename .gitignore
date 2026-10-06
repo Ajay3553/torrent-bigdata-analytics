@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Data Warehouses & Temporary Files
+warehouse/
+ingestion/rarbg_dump.csv
+*.csv
+*.parquet
+*.log
+*.tmp
+.DS_Store
+
+# IDE Configurations
+.vscode/
+.idea/
